@@ -195,6 +195,7 @@
           class="fr.paris.lutece.portal.service.prefs.BaseUserPreferencesServiceImpl">
         <property name="dao" ref="adminUserPreferencesDAO" />
     </bean>
+
     <!-- Security Token Service -->
     <bean id="securityTokenService" class="fr.paris.lutece.portal.service.security.SecurityTokenService" />
     <!-- Cleaner HTML -->
